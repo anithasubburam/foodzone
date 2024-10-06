@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOODIE ZONE</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header>
+        <div class="logo">FOODIE ZONE</div>
+        <nav>
+            <a href="#" id="loginBtn">Login</a>
+            <a href="#" id="signupBtn">Sign Up</a>
+            <a href="#" id="cartBtn">Cart</a>
+        </nav>
+    </header>
+
+    <div id="authSection">
+        <div id="loginForm">
+            <h2>Login</h2>
+            <form id="loginFormElement">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div id="signupForm" class="hidden">
+            <h2>Sign Up</h2>
+            <form id="signupFormElement">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <main id="mainContent" class="hidden">
+        <aside>
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#appetizers">Appetizers</a></li>
+                <li><a href="#mainCourses">Main Courses</a></li>
+                <li><a href="#desserts">Desserts</a></li>
+                <li><a href="#drinks">Drinks</a></li>
+            </ul>
+        </aside>
+
+        <section id="imageSlider">
+            <img src="/Users/Anitha/Desktop/githug/pexels-valeriya-939052.jpg" alt="Food Image 1" class="slider-image">
+            <img src="/Users/Anitha/Desktop/githug/pexels-low-and-slow-life-429147847-19725453.jpg" alt="Food Image 2" class="slider-image">
+            <img src="/Users/Anitha/Desktop/githug/pexels-valeriya-9976030.jpg" alt="Food Image 3" class="slider-image">
+            <img src="/Users/Anitha/Desktop/githug/pexels-george-desipris-1028637.jpg" alt="Food Image 4" class="slider-image">
+        </section>
+
+        <section id="foodItems">
+            <h2>Our Delicious Offerings</h2>
+            <div id="appetizers">
+                <h3>Appetizers</h3>
+                
+            </div>
+            <div id="mainCourses">
+                <h3>Main Courses</h3>
+                
+            </div>
+            <div id="desserts">
+                <h3>Desserts</h3>
+                
+            </div>
+            <div id="drinks">
+                <h3>Drinks</h3>
+                
+            </div>
+        </section>
+
+        <aside id="cart">
+            <h2>Your Cart</h2>
+            <ul id="cartItems">
+                
+            </ul>
+            <p>Total: <span id="cartTotal">$0.00</span></p>
+            <button id="checkoutBtn">Checkout</button>
+            <button id="clearCartBtn">Clear Cart</button>
+        </aside>
+    </main>
+
+    <script src="script1.js"></script>
+</body>
+</html>
+
+
+
